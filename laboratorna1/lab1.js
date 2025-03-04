@@ -9,7 +9,7 @@ function triangle(value1 = 4, type1 = "leg", value2 = 3, type2 = "leg"){
         return "Zero or negative input";
     }
 
-    if(value1 <= 1e-6 || value2 <= 1e-6 || value2 >= 1e6 || value2 >= 1e6){
+    if(value1 <= 1e-6 || value2 <= 1e-6 || value1 >= 1e6 || value2 >= 1e6){
         return "Too small/large value";
     }
     
