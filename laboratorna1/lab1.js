@@ -8,6 +8,10 @@ function triangle(value1 = 4, type1 = "leg", value2 = 3, type2 = "leg"){
     if(value1 <= 0 || value2 <= 0){
         return "Zero or negative input";
     }
+
+    if(value1 <= 1e-6 || value2 <= 1e-6 || value2 >= 1e6 || value2 >= 1e-6){
+        return "Too small/large value";
+    }
     
     const possibleTypes = ["leg", "hypotenuse", "adjacent angle", "opposite angle", "angle"];
     if(!possibleTypes.includes(type1) || !possibleTypes.includes(type2)){
@@ -61,7 +65,7 @@ function triangle(value1 = 4, type1 = "leg", value2 = 3, type2 = "leg"){
         alpha = 90 - angle; 
         a = c * Math.sin(alpha * (Math.PI / 180));
         b = c * Math.sin(beta * (Math.PI / 180));
-    }else if(type1 === "Leg" && type2 === "adjacent angle" || type2 === "leg" && type1 === "adjacent angle"){
+    }else if(type1 === "leg" && type2 === "adjacent angle" || type2 === "leg" && type1 === "adjacent angle"){
         let leg = type1 === "leg" ? value1 : value2;
         let adjacent_angle = type1 === "adjacent angle" ? value1 : value2;
         if (adjacent_angle >= 90) {
