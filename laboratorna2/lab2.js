@@ -57,10 +57,8 @@ Truck.prototype.AssignDriver = function(name, nightDriving, experience) {
     };
 };
 
-//поправити текст
-let truck1 = new Truck("black", 8000, 90.5, "Volvo", "FH16");
-let truck2 = new Truck("white", 7500, 85, "MAN", "TGX");
-//
+let truck1 = new Truck("black", 7000, 95, "MAN", "TGX");
+let truck2 = new Truck("white", 7500, 90, "MAN", "TGS");
 
 truck1.AssignDriver("Natalia Rudenko", true, 5);
 truck2.AssignDriver("Natalia Rudenko", false, 3);
