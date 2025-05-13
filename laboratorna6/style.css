@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #222;
+  color: #fff;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid #555;
+  transition: background-color 0.2s;
+}
+
+.cell.off {
+  background-color: black;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#win-message {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #0f0;
+}
