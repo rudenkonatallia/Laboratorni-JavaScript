@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "М'ясо",
+    "shortname": "meat",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 2,
+    "name": "Овочі",
+    "shortname": "vegetables",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 3,
+    "name": "Фрукти",
+    "shortname": "fruits",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 4,
+    "name": "Крупи",
+    "shortname": "grains",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+]

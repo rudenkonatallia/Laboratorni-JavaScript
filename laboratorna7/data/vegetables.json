@@ -1,0 +1,33 @@
+{
+  "category": "Овочі",
+  "items": [
+    {
+      "id": 201,
+      "name": "Помідори",
+      "shortname": "tomato",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "83 грн/кг"
+    },
+    {
+      "id": 202,
+      "name": "Огірки",
+      "shortname": "cucumber",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "80 грн/кг"
+    },
+    {
+      "id": 203,
+      "name": "Картопля",
+      "shortname": "potato",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": " 65 грн/кг"
+    },
+    {
+      "id": 204,
+      "name": "Морква",
+      "shortname": "carrot",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "65 грн/кг"
+    }
+  ]
+}

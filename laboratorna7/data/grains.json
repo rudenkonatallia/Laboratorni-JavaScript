@@ -1,0 +1,33 @@
+{
+  "category": "Крупи",
+  "items": [
+    {
+      "id": 401,
+      "name": "Гречка",
+      "shortname": "buckwheat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "32 грн/кг"
+    },
+    {
+      "id": 402,
+      "name": "Рис",
+      "shortname": "rice",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "50 грн/кг"
+    },
+    {
+      "id": 403,
+      "name": "Вівсянка",
+      "shortname": "oatmeal",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "45 грн/кг"
+    },
+    {
+      "id": 404,
+      "name": "Пшоно",
+      "shortname": "millet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "23 грн/кг"
+    }
+  ]
+}

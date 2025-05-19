@@ -1,0 +1,33 @@
+{
+  "category": "М'ясо",
+  "items": [
+    {
+      "id": 101,
+      "name": "Свинина",
+      "shortname": "pork",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "194 грн/кг"
+    },
+    {
+      "id": 102,
+      "name": "Телятина",
+      "shortname": "veal",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "359 грн/кг"
+    },
+    {
+      "id": 103,
+      "name": "Куряче філе",
+      "shortname": "chicken",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "204 грн/кг"
+    },
+    {
+      "id": 104,
+      "name": "Фарш (свинина)",
+      "shortname": "minced",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "174 грн/кг"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "category": "Фрукти",
+  "items": [
+    {
+      "id": 301,
+      "name": "Яблука",
+      "shortname": "apple",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "68 грн/кг"
+    },
+    {
+      "id": 302,
+      "name": "Банани",
+      "shortname": "banana",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "77 грн/кг"
+    },
+    {
+      "id": 303,
+      "name": "Апельсини",
+      "shortname": "orange",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "68 грн/кг"
+    },
+    {
+      "id": 304,
+      "name": "Груші",
+      "shortname": "pear",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "139 грн/кг"
+    }
+  ]
+}
